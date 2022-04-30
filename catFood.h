@@ -1,9 +1,7 @@
 /*
-	==================================================
-	Cat Food Cost Analysis
-	==================================================
-	Name   : Nozhin Azarpanah
-	Date   : October 18, 2021
+    ==================================================
+    Cat Food Cost Analysis
+    ==================================================
 */
 
 #define NUM_GRAMS 64
@@ -37,7 +35,7 @@ int getIntPositive(int* num);
 //Gets user input of double type and validate for a positive non-zero number
 double getDoublePositive(double* num);
 
-//Opening Message (include the number of products that need entering)
+//Opening Message
 void openingMessage(const int num_product);
 
 //Gets user input for the details of cat food product
